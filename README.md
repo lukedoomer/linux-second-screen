@@ -4,7 +4,6 @@ App to use any android device as second monitor on linux.
 ## How it will work
 The app may have multiples MainActivities.   
 1. [ ] Push the app using adb   
-3. [x] Ask device for it's resolution. (using `adb` or the `app`)   
 4. [x] Create a virtual display matching device answer   
 5. [x] Start vnc server   
 6. [ ] Push host's configurations to device   
@@ -19,15 +18,6 @@ You only need to pass those parameters, if you want. The parameters could be pas
 * Device resolution using [width]x[height], without bracets. Sample 800x600
 * `-v` - VIRTUAL display to be used. Sample v1, v2, v3
 * `-left` or `-right  - the position of your device, related to you display
-* `-hst` - Subtract status bar size from virtual display
-* `-hsb` - Subtract system bar size from virtual display
-
-## Mixing with ADB?
-Some Android device return can return the resolution throught command line.   
-To use that you will need to enable developer mode on your device. [Check this](http://developer.android.com/tools/help/adb.html#Enabling) to enable.   
-To finish you'll need to point your adb location inside the script file.   
-With this you don't need to pass any parameters to the script.   
-(This is only recomended for developers)
 
 
 ## For those who aren't using a laptop.
