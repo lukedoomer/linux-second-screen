@@ -4,10 +4,10 @@ App to use any android device as second monitor on linux.
 ## How it will work
 The app may have multiples MainActivities.   
 1. [ ] Push the app using adb   
-4. [x] Create a virtual display matching device answer   
-5. [x] Start vnc server   
-6. [ ] Push host's configurations to device   
-7. [ ] Start the app using adb   
+2. [x] Create a virtual display matching harcoded resolution
+3. [x] Start vnc server   
+4. [ ] Push host's configurations to device   
+5. [ ] Start the app using adb   
 We already made some of those things using a simple script.   
 
 

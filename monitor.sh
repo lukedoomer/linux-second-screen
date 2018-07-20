@@ -100,7 +100,7 @@ run "xrandr --output $virtual --mode $mode --${position}-of ${fisical}"
 
 
 ## Start VNC
-run "x11vnc -clip ${xinerama} -xrandr -viewonly -nocursorshape -nocursorpos -forever"
+run "x11vnc -clip ${xinerama} -xrandr -nocursorshape -nocursorpos -forever"
 
 
 ## Turn VirtualDisplay off
